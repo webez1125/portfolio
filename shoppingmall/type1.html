@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>쇼핑몰1</title>
+</head>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Megrim&display=swap');
+body {width:100%; min-width:1200px; margin:0px; font-family:나눔고딕; font-size:12px; line-height:20px; color:#111;}
+a {text-decoration: none; color: #000;}
+a:hover {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:link {text-decoration: none;}
+.type1 .wrap .top {width:100%; font-weight:600;}
+.type1 .wrap .top .lnb_wrap {width:100%; height:25px; line-height:25px; border-bottom:1px solid #EFEFEF; text-align:center; font-size:11px;}
+.type1 .wrap .top .lnb {width:1200px; display:inline-block;}
+.type1 .wrap .top .lnb ul {margin:0; padding:0;}
+.type1 .wrap .top .lnb ul li {list-style:none; margin-right:15px; cursor: pointer;}
+.type1 .wrap .top .lnb .left {text-align: left;}
+.type1 .wrap .top .lnb .left li {float: left;}
+.type1 .wrap .top .lnb .right {text-align: right;}
+.type1 .wrap .top .lnb .right li{float:right;}
+.type1 .wrap .top .logo_wrap {width:1200px; height: 100px;}
+.type1 .wrap .top .logo_wrap .logo {line-height:50px; position: relative; top:20px; font-size:50px; font-weight:bold; font-family:'Goldman', cursive; background:; float: left;}
+
+.type1 .wrap .top .logo_wrap .search_box {border:1px solid red; border-radius:15px; width:300px; height:25px; background:url(img/search_icon.jpg) no-repeat; background-position: 280px center; background-size: 15px; float: right; position: relative; top: 35px;}
+
+.type1 .wrap .top .gnb_wrap {width:100%; height:40px; line-height:40px; border-top:1px solid #EFEFEF; border-bottom:1px solid #EFEFEF;}
+.type1 .wrap .top .gnb {width:1200px; display:inline-block; border-left:1px solid #EFEFEF; border-right:1px solid #EFEFEF;}
+.type1 .wrap .top .gnb ul {padding:0; margin:0;}
+.type1 .wrap .top .gnb ul li {list-style:none; margin-left:20px; margin-right:20px; float:left; cursor: pointer;}
+
+.type1 .wrap .main_banner {height:500px; background:#fff;}
+.type1 .wrap .main_banner .wide {width:100%; height:500px; background:url(img/trisha2.jpg)}
+.type1 .wrap .main_banner .btn_wrap {width:100%; height: 100px; position: relative; top:-290px; opacity: 0.3; z-index: 5; font-family: 'Megrim', cursive; font-size:100px; color:#fff; line-height: 100px; z-index: 5;}
+.type1 .wrap .main_banner .btn_wrap .btn_left {position:relative; top:; float: left; margin-left:5%; cursor: pointer; text-shadow:0px 0px 5px #000; }
+.type1 .wrap .main_banner .btn_wrap .btn_right {position:relative; top:; float: right; margin-top:px; margin-right:5%; cursor: pointer; text-shadow:0px 0px 5px #000;}
+.type1 .wrap .main_banner #mbList {width: 100%; margin-left: ;}
+.type1 .wrap .main_banner #mbList .dot {color: #fff; font-size: 5px; position: relative; top: -150px; opacity:0.8; text-shadow:0px 0px 5px #000; cursor: pointer; margin-right:15px; display: inline-block;}
+
+.type1 .wrap .comm_wrap {width:1200px; background:;}
+.type1 .wrap .comm_wrap .comm_list {padding:40px 0 40px 0;}
+.type1 .wrap .comm_wrap .comm_list .sub_title {font-size:40px; line-height:40px; color:#000; text-align:left; font-weight:600; letter-spacing: -2px; margin-left:50px;}
+.type1 .wrap .comm_wrap .comm_list ul {padding:0; margin:20px; text-align:left;}
+.type1 .wrap .comm_wrap .comm_list ul li {width:19%; list-style:none; float:left; padding-bottom:40px; margin-left:5px; margin-right:5px;}
+.type1 .wrap .comm_wrap .comm_list ul li .comm {border:1px solid #CCC;}
+.type1 .wrap .comm_wrap .comm_list ul li .comm img {width:100%; height:300px; background:#CFC;}
+.type1 .wrap .comm_wrap .comm_list ul li .comm .comm_title {padding-left:7px;}
+.type1 .wrap .comm_wrap .comm_list ul li .comm .price {text-align:right; font-weight:; padding-right:7px;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script language="javascript">
+$(function(){
+  $('#logo').click(function(){
+    location.href = "type1.html";
+  })
+
+  $('.gnb > ul > li').mouseover(function(){
+    $(this).css('color','red')
+  })
+  $('.gnb > ul > li').mouseout(function(){
+    $(this).css('color','#000')
+  })
+
+
+  var bannerW = ['banner','banner','banner','banner','banner'];
+  var a="";
+  var listup="";
+  for(i=1;i<bannerW.length;i++){
+    a = "<div id='bn" + i +"' class='dot'>●</div>";
+    listup += a;
+  }
+  $('#mbList').append(listup);
+
+  //$("button").on("click", function(){
+//    $('#mbList').append("add test");
+//  }
+})
+</script>
+
+<body>
+<center>
+<div class="type1">
+  <div class="wrap">
+    <!-- top : login, join, logo, top_menu 시작 -->
+    <div class="top">
+      <div class="lnb_wrap">
+        <div class="lnb">
+          <ul class="left">
+            <li class="home">홈</li>
+            <li class="bookmark">즐겨찾기</li>
+          </ul>
+          <ul class="right">
+            <li class="login">로그인</li>
+            <li class="join">회원가입</li>
+            <li class="mypage">마이쇼핑&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+            <li class="basket">장바구니</li>
+            <li class="order">주문조회</li>
+          </ul>
+        </div>
+      </div>
+      <div class="logo_wrap">
+        <a href="type1.html"><div class="logo">logo</div></a>
+        <input type="text" class="search_box">
+      </div>
+      <div class="gnb_wrap">
+        <div class="gnb">
+          <ul>
+            <li>전체보기</li>
+            <li>신상품</li>
+            <li>상품1</li>
+            <li>상품2</li>
+            <li>상품3</li>
+            <li>상품4</li>
+            <li>상품5</li>
+            <li>상품6</li>
+            <li>상품7</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- top : login, join, logo, top_menu 끝 -->
+    <!-- main_banner : 슬라이드 배너 시작 -->
+    <div class="main_banner">
+      <div id="Mbanner" class="banner wide"></div>
+      <div class="btn_wrap"><div class="btn_left"><</div><div class="btn_right">></div></div>
+      <div id="mbList"><div id="bn1" class="dot">●</div></div>
+    </div>
+    <!-- main_banner : 슬라이드 배너 끝 -->
+    <!-- comm_list : 상품영역 시작 -->
+    <div class="comm_wrap">
+      <div id="best_seller" class="comm_list">
+        <p class="sub_title">BEST SELLER</p>
+        <ul>
+          <li>
+            <div class="comm">
+              <img src="" />
+              <p class="comm_title">플렌플라워 바이올렛 침구</p>
+              <p class="price">69,900원</p>
+            </div>
+          </li>
+          <li>
+            <div class="comm">
+              <img src="" />
+              <p class="comm_title">플렌플라워 바이올렛 침구</p>
+              <p class="price">69,900원</p>
+            </div>
+          </li>
+          <li>
+            <div class="comm">
+              <img src="" />
+              <p class="comm_title">플렌플라워 바이올렛 침구</p>
+              <p class="price">69,900원</p>
+            </div>
+          </li>
+          <li>
+            <div class="comm">
+              <img src="" />
+              <p class="comm_title">플렌플라워 바이올렛 침구</p>
+              <p class="price">69,900원</p>
+            </div>
+          </li>
+          <li>
+            <div class="comm">
+              <img src="" />
+              <p class="comm_title">플렌플라워 바이올렛 침구</p>
+              <p class="price">69,900원</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</center>
+</body>
+</html>
