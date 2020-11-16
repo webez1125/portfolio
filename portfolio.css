@@ -1,0 +1,54 @@
+body {width:100%; margin: 0px;}
+img {border:0px;}
+a {text-decoration: none; color: #fff;}
+a:hover {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:link {text-decoration: none;}
+
+.top {width:100%; border-bottom:0px dotted #ccc; background:;}
+.top .title1 {width:100%; text-align: center; padding:0px 0 20px 0; margin-top:-20px; color:; font-size: 50px;}
+.top .title2 {width:100%; height:14px; text-align: center; padding:10px 0 15px 0; margin:10px 0 10px 0; background:#fff; line-height: 14px; color: #000; border-bottom:0px solid #000; z-index:5; position:relative; font-family: 나눔고딕; font-size: 13px;}
+.top .title2 .menu {display: inline-block; width:; text-align: center; color: #000; font-weight:600; font-size: 13px;}
+.top .title2 .menu .s1 {cursor: pointer; display: inline-block; color:#DF3A01; margin:0 10px 0 10px; padding-bottom:3px;}
+.top .title2 .menu .s2 {display: inline-block; color:#000; margin:0 10px 0 10px;}
+.top .title2 .s3 {cursor: pointer; display: inline-block; color:#DF3A01; margin:0 5px 0 5px; padding-bottom:3px; font-weight:600;}
+
+/*  리스트 작은 이미지  */
+.list {width: 100%;}
+.list .listgroup {width:100%; height:0px; z-index: 5; background: #fff; margin:0 0 30px 0;}
+.list .listgroup .title3 {width:100%; height: 40px; line-height: 40px; text-align:center; font-size: 16px; font-family: 'Noto Sans KR', sans-serif; border-bottom:0px solid #666; background:#FF8000; color: #fff;}
+.list .listgroup .portfolio {}
+
+.list .listgroup .portfolio .subtitle {width:900px; position:relative; top:-35px; left:; text-align: right; padding:10px 0 10px 0; line-height: 13px; color: #fff; position:; font-family: 나눔고딕; font-size: 12px; font-weight:600; border-bottom:0px dotted #ccc;}
+.list .listgroup .portfolio .subtitle .smenu {margin: 0 10px 0px 10px; cursor: pointer;}
+.list .listgroup .portfolio .subtitle .m1 {color: yellow;}
+
+/*  선택된 리스트 설명 및 큰 이미지  */
+.list .show {width:900px; display: inline-block; padding:50px 0 50px 0; border-bottom:1px dotted #000}
+.list .show .comment {width:900px; font-size: 12px; display: inline-block; vertical-align: top; text-align: left; margin:0px 0 10px 10px;}
+.list .show .comment .line {height:9px;}
+.list .show .comment .line ul {text-align: left;}
+.list .show .comment .line ul li {margin-left:0; padding-left:0; float:left; }
+.list .show .comment .line ul .subtitle1 {margin-left:-20px;}
+.list .show .comment .line ul .subtitle2 {margin-left:35px;}
+.list .show .comment .line ul .subtitle3 {margin-left:-20px; margin-right:10px;}
+.list .show .comment .line ul .description {list-style: none; margin-left:0px;}
+.list .show .comment .line ul .description2 {list-style: none; margin:0px 20px 0 0;}
+.list .show .pop {width:70px; height: 40px; line-height: 18px; background:#000; border:1px solid #000; color:#fff; font-size:14px; padding:12px 0 13px 0; position:relative; top: 12px; left:420px; cursor:pointer; z-index: 3; opacity:0.9; display:none;}
+.list .show .view {width:900px; display:; position: relative; top: 10px; padding:0 0 30px 0;}
+.list .show .view_img {border:1px solid #000;}
+.list .show .viewClose {width:30px; height:30px; line-height: 30px; display: inline-block; position: relative;  top: -599px; border:1px solid #000; color: #000; text-align: center; font-size: 14px; font-family: 'Nunito', sans-serif; cursor: pointer;}
+
+.list .btn_more {width:100px; height: 25px; border:1px solid #000; margin:20px 0px 60px 0px; line-height: 25px; background: #000; color: #fff; font-size: 8px; cursor: pointer;}
+
+/*  프로필  */
+.list .listgroup .profile {width:700px; font-size: 13px; margin:0 0 0px 0; padding-bottom:50px;}
+.list .listgroup .profile .title4 {text-align: left; font-weight: bold; margin:60px 0 0 20px;}
+.list .listgroup .profile .line {height:16px; border-bottom:1px dotted #000; padding:0 0 5px 0;}
+.list .listgroup .profile .line ul {text-align: left;}
+.list .listgroup .profile .line ul li {float:left;}
+.list .listgroup .profile .line ul .subtitle4 {margin-left:-20px; margin-right:10px;}
+.list .listgroup .profile .line ul .description1 {list-style: none; margin-right:125px;}
+.list .listgroup .profile .line ul .subtitle5 {margin-left:-20px; width:150px;}
+.list .listgroup .profile .line ul .description2 {list-style: none; margin-right:0px;}
+.list .listgroup .profile .line ul .description3 {list-style: none; margin-right:110px;}
