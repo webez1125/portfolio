@@ -39,7 +39,7 @@ $(function(){
   })
 
     function f2(b){
-    //$('body,html').animate({scrollTop:b},300);
+    //$('body,html').animate({scrollTop:b},400);
     $('body,html').animate({scrollTop:$('.layer'+b).offset().top},300);
   }
 });
