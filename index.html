@@ -5,6 +5,16 @@
     <link href="portfolio2.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="portfolio2.js"></script>
+    <script language="javascript">
+    var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
+for (var word in mobileKeyWords){
+    if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+        location.href = "portfolio_mobile.html";
+        break;
+
+    }
+}
+    </script>
     <title></title>
   </head>
 
@@ -16,7 +26,7 @@
         <div id="m3" class="menu">DESIGN</div>
         <div id="m4" class="menu">SHOPPINGMALL</div>
       </div>
-      <div class="layer1">
+      <div class="layer1" id="main">
         <div class="logo"><img src="img/webez.jpg"></div>
         <span>웹디자인/웹퍼블리싱</span>
         <p>PORTFOLIO</p>
@@ -29,7 +39,7 @@
           </ul>
         </div>
       </div>
-      <div class="layer2">
+      <div class="layer2" id="profile">
         <div class="profile">
           <p>PROFILE</p>
           <div class="title">기본정보</div>
@@ -124,9 +134,7 @@
           </div>
         </div>
       </div>
-    </div>
-      </div>
-      <div class="layer3">
+      <div class="layer3" id="design">
         <div class="design">
           <p>DESIGN</p>
           <script language="javascript">
@@ -136,7 +144,7 @@
           </script>
         </div>
       </div>
-      <div class="layer4">
+      <div class="layer4" id="shoppingmall">
         <div class="shoppingmall">
           <p>SHOPPINGMALL</p>
           <div class="show" id="type1">
@@ -149,7 +157,7 @@
               </div>
             </div>
             <!--<div class="pop"><a href="javascript:popup('shoppingmall','type1');">원본<br>보기</a></div>-->
-            <div class="view" style="top:17px;"><a href="https://webez1125.github.io/portfolio/shoppingmall/type1.html" target="_blank"><img src="shoppingmall/img/type1.jpg" width="900" class="view_img"></a></div>
+            <div class="view" style="top:17px;"><a href="https://webez1125.github.io/portfolio/shoppingmall/type1.html" target="_blank"><img src="../shoppingmall/img/type1.jpg" width="900" class="view_img"></a></div>
           </div>
         </div>
       </div>
