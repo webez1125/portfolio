@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+html, body {width:100%; height:100%; margin: 0px; font-family: 'Noto Sans KR', sans-serif; text-align: center; font-size: 14px;}
+img {border:0px;}
+a {text-decoration: none; color: #fff;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+.lmenu_wrap {width:175px; position: fixed; text-align: left; margin-top:-71px; opacity:0.4; display: none; z-index: 10;}
+.lmenu_wrap .menu {width:175px; height:40px; position: relative; display: block; background: #000; color: #fff; margin-top:141px; margin-left:-71px; padding-left:5px; font-size:14px; line-height: 40px; -webkit-transform: rotate(90deg); font-weight:500; cursor:pointer;}
+
+.layer1, .layer2, .layer3, .layer4{width:100%; display: inline-block; border-bottom:1px dotted #000; padding:100px 0 100px 0;}
+
+.layer1 .logo {}
+.layer1 .logo img {width:160px; margin-bottom:20px;}
+.layer1 span {font-size: 0.9em; line-height: 0.9em; font-weight: 600;}
+.layer1 p {font-size:3.2em; font-family: 'Fredericka the Great', cursive; margin-top:18px;}
+.layer1 .mmenu_wrap {width:100%;}
+.layer1 .mmenu_wrap .mmenu {display: inline-block; height:30px; line-height: 30px; padding:3px 10px 3px 10px; margin:0 7px 0 7px; border:1px solid #000; border-radius:25px; box-shadow: 0px 0px 3px #ccc; font-size: 1em; cursor:pointer; background:#FCFCDB;}
+
+/*  프로필  */
+.layer2 .profile {width:; font-size: 0.9em;}
+.layer2 .profile p {font-size: 1.6em; font-weight: 600; line-height: 40px; color: red; border:2px solid red; width:150px; height: 40px; border-radius:30px;}
+.layer2 .profile .title {text-align: left; font-weight: bold; padding-top:40px; margin-left:50px;}
+.layer2 .profile .line {height:1.3em; line-height:1.3em; border-bottom:1px solid #000; margin-left:50px; padding-bottom:10px;}
+.layer2 .profile .line ul {text-align: left; margin-left: -20px;}
+.layer2 .profile .line ul li {float:left;}
+.layer2 .profile .line ul .st1 {width:65px;  margin-right:10px; text-align: justify; margin-left:;}
+.layer2 .profile .line ul .ds1 {list-style: none; margin-right:;}
+
+.layer2 .profile .line2 {border-bottom:1px solid #000; margin-left:50px;}
+.layer2 .profile .line2 ul {text-align: left; margin-left: -20px;}
+.layer2 .profile .line2 ul li {height:; line-height:20px;}
+.layer2 .profile .line2 ul .st2 {}
+.layer2 .profile .line2 ul .ds2 {list-style: none;}
+
+.layer2 .profile .line ul .st3 { margin-right:5px;}
+.layer2 .profile .line ul .ds3 {list-style: none; margin-right:120px;}
+
+.layer3 .design {margin-left:70px;}
+.layer3 .design p {font-size: 1.6em; font-weight: 600; line-height: 40px; margin:0px 0 70px 0px; color: red; border:2px solid red; width:150px; height: 40px; border-radius:30px;}
+.layer3 .design img {width:35%; display: inline; float:; margin:0 5px 10px 5px; cursor: pointer; border:1px solid #ccc; }
+
+.layer4 .shoppingmall {margin-left:50px;}
+.layer4 .shoppingmall p {font-size: 1.6em; font-weight: 600; line-height: 40px; color: red; border:2px solid red; width:220px; height: 40px; border-radius:30px;}
+.layer4 .shoppingmall .show {display: inline-block; padding:50px 0 0px 0;}
+.layer4 .shoppingmall .show .comment {width:; font-size: 0.9em; display: inline-block; vertical-align: top; text-align: left; margin:0px 0 10px 10px;}
+.layer4 .shoppingmall .show .comment .line {height:9px;}
+.layer4 .shoppingmall .show .comment .line ul {text-align: left;}
+.layer4 .shoppingmall .show .comment .line ul li {margin-left:0; padding-left:0; float:left; }
+.layer4 .shoppingmall .show .comment .line ul .st1 {margin-left:-20px;}
+.layer4 .shoppingmall .show .comment .line ul .ds1 {list-style: none; margin-left:0px;}
+.layer4 .shoppingmall .show .pop {width:70px; height: 40px; line-height: 18px; background:#000; border:1px solid #000; color:#fff; font-size:14px; padding:12px 0 13px 0; position:relative; top: 12px; left:420px; cursor:pointer; z-index: 3; opacity:0.9; display:none;}
+.layer4 .shoppingmall .show .view {width:; position: relative; top: 10px; padding:0 0 30px 0;}
+.layer4 .shoppingmall .show .view img {width: 75%; border:1px solid #ccc;}
