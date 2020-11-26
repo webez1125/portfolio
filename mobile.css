@@ -7,10 +7,12 @@ a:link {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
 
-.lmenu_wrap {width:175px; position: fixed; text-align: left; margin-top:-71px; opacity:0.4; display: none; z-index: 10;}
-.lmenu_wrap .menu {width:175px; height:40px; position: relative; display: block; background: #000; color: #fff; margin-top:141px; margin-left:-71px; padding-left:5px; font-size:14px; line-height: 40px; -webkit-transform: rotate(90deg); font-weight:500; cursor:pointer;}
+.lmenu_wrap {width:100%; position: fixed; text-align: center; opacity:0.4; display: none; z-index: 10;}
+.lmenu_wrap ul {margin:0px; padding:0px;}
+.lmenu_wrap ul li {list-style: none; width:25%; height:40px; display: inline-block; background: #000; color: #fff; font-size:1em; line-height: 40px; font-weight:500; cursor:pointer; margin-left:-4px;}
 
-.layer1, .layer2, .layer3, .layer4{width:100%; display: inline-block; border-bottom:1px dotted #000; padding:100px 0 100px 0;}
+
+.layer1, .layer2, .layer3, .layer4{width:100%; display: inline-block; border-bottom:0px dotted #000; padding:100px 0 150px 0;}
 
 .layer1 .logo {}
 .layer1 .logo img {width:160px; margin-bottom:20px;}
@@ -22,14 +24,14 @@ a:hover {text-decoration: none;}
 /*  프로필  */
 .layer2 .profile {width:; font-size: 0.9em;}
 .layer2 .profile p {font-size: 1.6em; font-weight: 600; line-height: 40px; color: red; border:2px solid red; width:150px; height: 40px; border-radius:30px;}
-.layer2 .profile .title {text-align: left; font-weight: bold; padding-top:40px; margin-left:50px;}
-.layer2 .profile .line {height:1.3em; line-height:1.3em; border-bottom:1px solid #000; margin-left:50px; padding-bottom:10px;}
+.layer2 .profile .title {text-align: left; font-weight: bold; padding-top:40px; margin-left:10px;}
+.layer2 .profile .line {height:1.3em; line-height:1.3em; border-bottom:1px solid #000; margin-left:10px; padding-bottom:10px;}
 .layer2 .profile .line ul {text-align: left; margin-left: -20px;}
 .layer2 .profile .line ul li {float:left;}
 .layer2 .profile .line ul .st1 {width:65px;  margin-right:10px; text-align: justify; margin-left:;}
-.layer2 .profile .line ul .ds1 {list-style: none; margin-right:;}
+.layer2 .profile .line ul .ds1 {list-style: none;}
 
-.layer2 .profile .line2 {border-bottom:1px solid #000; margin-left:50px;}
+.layer2 .profile .line2 {border-bottom:1px solid #000; margin-left:10px;}
 .layer2 .profile .line2 ul {text-align: left; margin-left: -20px;}
 .layer2 .profile .line2 ul li {height:; line-height:20px;}
 .layer2 .profile .line2 ul .st2 {}
@@ -38,11 +40,11 @@ a:hover {text-decoration: none;}
 .layer2 .profile .line ul .st3 { margin-right:5px;}
 .layer2 .profile .line ul .ds3 {list-style: none; margin-right:120px;}
 
-.layer3 .design {margin-left:70px;}
+.layer3 .design {margin-left:10px;}
 .layer3 .design p {font-size: 1.6em; font-weight: 600; line-height: 40px; margin:0px 0 70px 0px; color: red; border:2px solid red; width:150px; height: 40px; border-radius:30px;}
 .layer3 .design img {width:35%; display: inline; float:; margin:0 5px 10px 5px; cursor: pointer; border:1px solid #ccc; }
 
-.layer4 .shoppingmall {margin-left:50px;}
+.layer4 .shoppingmall {margin-left:10px;}
 .layer4 .shoppingmall p {font-size: 1.6em; font-weight: 600; line-height: 40px; color: red; border:2px solid red; width:220px; height: 40px; border-radius:30px;}
 .layer4 .shoppingmall .show {display: inline-block; padding:50px 0 0px 0;}
 .layer4 .shoppingmall .show .comment {width:; font-size: 0.9em; display: inline-block; vertical-align: top; text-align: left; margin:0px 0 10px 10px;}
