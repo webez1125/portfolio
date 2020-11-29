@@ -19,7 +19,7 @@ a:hover {text-decoration: none;}
 .layer1 span {font-size: 0.9em; line-height: 0.9em; font-weight: 600;}
 .layer1 p {font-size:3.2em; font-family: 'Fredericka the Great', cursive; margin-top:18px;}
 .layer1 .mmenu_wrap {width:100%;}
-.layer1 .mmenu_wrap .mmenu {display: inline-block; height:30px; line-height: 30px; padding:3px 10px 3px 10px; margin:0 7px 0 7px; border:1px solid #000; border-radius:25px; box-shadow: 0px 0px 3px #ccc; font-size: 1em; cursor:pointer; background:#FCFCDB;}
+.layer1 .mmenu_wrap .mmenu {display: inline-block; height:30px; line-height: 30px; padding:3px 10px 3px 10px; margin:0 3px 0 3px; border:1px solid #000; border-radius:25px; box-shadow: 0px 0px 3px #ccc; font-size: 1em; cursor:pointer; background:#FCFCDB;}
 
 /*  프로필  */
 .layer2 .profile {width:; font-size: 0.9em;}
