@@ -22,7 +22,7 @@ a:hover {text-decoration: none;}
 .layer1 .mmenu_wrap .mmenu {display: inline-block; height:30px; line-height: 30px; padding:3px 10px 3px 10px; margin:0 3px 0 3px; border:1px solid #000; border-radius:25px; box-shadow: 0px 0px 3px #ccc; font-size: 1em; cursor:pointer; background:#FCFCDB;}
 
 /*  프로필  */
-.layer2 .profile {width:; font-size: 0.9em;}
+.layer2 .profile {width:;}
 .layer2 .profile p {font-size: 1.6em; font-weight: 600; line-height: 40px; color: red; border:2px solid red; width:150px; height: 40px; border-radius:30px;}
 .layer2 .profile .title {text-align: left; font-weight: bold; padding-top:40px; margin-left:10px;}
 .layer2 .profile .line {height:1.3em; line-height:1.3em; border-bottom:1px solid #000; margin-left:10px; padding-bottom:10px;}
