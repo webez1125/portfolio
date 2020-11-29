@@ -28,7 +28,7 @@ a:hover {text-decoration: none;}
 .layer2 .profile .line {height:1.3em; line-height:1.3em; border-bottom:1px solid #000; margin-left:10px; padding-bottom:10px;}
 .layer2 .profile .line ul {text-align: left; margin-left: -20px;}
 .layer2 .profile .line ul li {float:left;}
-.layer2 .profile .line ul .st1 {width:65px;  margin-right:10px; text-align: justify; margin-left:;}
+.layer2 .profile .line ul .st1 {width:65px; margin-right:10px; margin-left:;}
 .layer2 .profile .line ul .ds1 {list-style: none;}
 
 .layer2 .profile .line2 {border-bottom:1px solid #000; margin-left:10px;}
@@ -37,8 +37,8 @@ a:hover {text-decoration: none;}
 .layer2 .profile .line2 ul .st2 {}
 .layer2 .profile .line2 ul .ds2 {list-style: none;}
 
-.layer2 .profile .line ul .st3 { margin-right:5px;}
-.layer2 .profile .line ul .ds3 {list-style: none; margin-right:120px;}
+.layer2 .profile .line ul .st3 {margin-right:10px;}
+.layer2 .profile .line ul .ds3 {list-style: none;}
 
 .layer3 .design {margin-left:;}
 .layer3 .design p {font-size: 1.6em; font-weight: 600; line-height: 40px; margin:0px 0 70px 0px; color: red; border:2px solid red; width:150px; height: 40px; border-radius:30px;}
