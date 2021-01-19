@@ -44,18 +44,18 @@ $(function(){
   }
 });
 
-$(window).scroll(function(){
+//$(window).scroll(function(){
 
-  if($(window).scrollTop()>$('.layer1').height()){
-    $('.lmenu_wrap').css('display','block')
+  //if($(window).scrollTop()>$('.layer1').height()){
+    //$('.lmenu_wrap').css('display','block')
     //$('.layer1').animate({'margin-top':'-722px'},'fast');
     //$('.layer2').css({'margin-top':'0px'});
     //$('body,html').animate({'margin-top':'-722'},'fast');
 
-  }else if($(window).scrollTop()<$('.layer1').height()){
-    $('.lmenu_wrap').css('display','none')
-  }
-})
+  //}else if($(window).scrollTop()<$('.layer1').height()){
+   // $('.lmenu_wrap').css('display','none')
+ // }
+//})
 function popup(a,b){
   if(a == 'md'){
     window.open('../md/'+b+'/'+b+'.html','pop','');
